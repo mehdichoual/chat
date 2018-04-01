@@ -18,8 +18,7 @@ SET time_zone = "+00:00";
 
 --
 -- Base de données :  `ilyeum_chat`
---
-DROP DATABASE `ilyeum_chat`;
+-- 
 CREATE DATABASE IF NOT EXISTS `ilyeum_chat` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
 USE `ilyeum_chat`;
 
