@@ -17,10 +17,6 @@ class Database
 
     public static function getInstance() {
         if (!isset(self::$instance)) {
-            $DBhost="localhost";
-            $DBname="ilyeum_chat";
-            $DBUser="root";
-            $DBPwd="";
             $pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
             self::$instance = new PDO('mysql:host=localhost;dbname=ilyeum_chat','root', '', $pdo_options);
         }
